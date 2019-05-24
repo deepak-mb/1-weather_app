@@ -1,10 +1,13 @@
 import React from "react";
 import "./App.css";
+import Header from "./components/Layout/Header";
+import Weather from "./components/Layout/Weather";
 
 function App() {
   return (
     <div className="App container">
-      <h1>Start Creating app...</h1>
+      <Header />
+      <Weather />
     </div>
   );
 }

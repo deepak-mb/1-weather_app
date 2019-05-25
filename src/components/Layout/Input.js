@@ -9,7 +9,7 @@ const Input = props => {
       placeholder={placeholder}
       value={value}
       onChange={onChange}
-      className="my-2"
+      className="my-2 d-block"
     />
   );
 };

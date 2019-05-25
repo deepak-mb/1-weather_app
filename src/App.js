@@ -5,9 +5,11 @@ import Weather from "./components/Layout/Weather";
 
 function App() {
   return (
-    <div className="App container">
-      <Header />
-      <Weather />
+    <div className="">
+      {/* <Header /> */}
+      <div className="App container">
+        <Weather />
+      </div>
     </div>
   );
 }

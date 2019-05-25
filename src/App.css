@@ -1,15 +1,27 @@
-/* #root {
-  background: linear-gradient(
-    90deg,
-    rgba(75, 108, 183, 1) 0%,
-    rgba(9, 9, 121, 1) 75%,
-    rgba(24, 40, 72, 1) 100%
-  );
-} */
+body {
+  height: 100vh;
+}
+#root {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#root div {
+}
+.roboto-500 {
+  font-family: Roboto;
+  font-weight: 500;
+}
+.roboto-300 {
+  font-family: Roboto;
+  font-weight: 300;
+}
+
 .desc {
   text-transform: capitalize;
 }
-/* 
-.card-body {
-  background-color: gray;
-} */
+
+.inputField:focus {
+  outline: none;
+}

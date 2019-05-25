@@ -5,7 +5,7 @@ const WeatherTable = props => {
   const { city, country, temperature, humidity, description, iconID } = props;
   return (
     <div className="my-2">
-      <table>
+      <table className="roboto-300" style={{width: "100%"}}>
         <tbody>
           <tr>
             <td>City:</td>

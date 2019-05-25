@@ -1,11 +1,8 @@
-// (valNum-32)/1.8
-
 import React from "react";
 import axios from "axios";
 
 const WeatherTable = props => {
   const { city, country, temperature, humidity, description, iconID } = props;
-
   return (
     <div className="my-2">
       <table>
@@ -20,7 +17,7 @@ const WeatherTable = props => {
           </tr>
           <tr>
             <td>Temperature:</td>
-            <td>{temperature}</td>
+            <td>{((temperature-32)*5/9).toFixed(2)} &#8451;</td>
           </tr>
           <tr>
             <td>Humidity:</td>

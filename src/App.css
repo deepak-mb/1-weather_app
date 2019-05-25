@@ -1,3 +1,15 @@
+/* #root {
+  background: linear-gradient(
+    90deg,
+    rgba(75, 108, 183, 1) 0%,
+    rgba(9, 9, 121, 1) 75%,
+    rgba(24, 40, 72, 1) 100%
+  );
+} */
 .desc {
   text-transform: capitalize;
 }
+/* 
+.card-body {
+  background-color: gray;
+} */

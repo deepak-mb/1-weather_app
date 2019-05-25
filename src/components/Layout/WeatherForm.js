@@ -48,7 +48,7 @@ class WeatherForm extends Component {
   getWeather = async (city, country) => {
     await axios
       .get(
-        `http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${
+        `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${
           process.env.REACT_APP_DEEPAK_WEATHER_API_KEY
         }&units=imperial`
       )
